@@ -1,0 +1,43 @@
+.section-title{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.post{
+    display: flex;
+    margin: 5px 10px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.content{
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-thumb{
+    margin: 5px 10px 5px 5px;
+}
+.desc{
+    font-size: 16px;
+    font-weight: 400;
+}
+button{
+    padding: 5px;
+    color: white;
+    background-color: rgb(10, 10, 136);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-add-post{
+    border: 1px solid;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px blue;
+    padding: 10px;
+}
+label{
+    font-size: 15px;
+}

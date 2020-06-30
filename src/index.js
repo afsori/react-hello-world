@@ -1,13 +1,23 @@
 import React from 'react';
+import { createStore } from 'redux';
+
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Home from './container/Home/Home'
+
+import { Provider } from 'react-redux';
+import rootReducer from './redux/reducer/globalReducer'
+
+// inisiasi Store
+// const createStore = redux.createStore
+
+
+// Store => tertuju ke reducer. isi parameter adalah reducer
+const storeRedux = createStore(rootReducer);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={storeRedux}><Home /></Provider>,
   document.getElementById('root')
 );
 

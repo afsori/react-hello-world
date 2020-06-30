@@ -1,0 +1,16 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(83, 79, 79);
+    padding :20px;
+    background-color: rgb(109, 104, 104);
+}
+
+.navigation a{
+padding: 10px;
+background-color: rgb(228, 142, 15);
+border-radius: 5px;
+color: white;
+margin: 20px;
+text-decoration: none;
+}

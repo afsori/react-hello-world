@@ -1,0 +1,52 @@
+.card{
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.minus{
+    width: 50px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+.plus{
+    width: 50px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+.input-name{
+    height: 31px;
+    padding: 0;
+    text-align: center;
+}
+.header{
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.count{
+    background: blue;
+    border-radius: 50%;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.trolli{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
